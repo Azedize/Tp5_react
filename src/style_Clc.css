@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    width: 256px;
+    text-align: center;
+    border: 10px solid #101116;
+    background: #101116;
+    border-radius: 5px;
+
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows:minmax(60px,auto) ;
+}
+input[type="text"]{
+    height: 75px;
+    width: 249px;
+    background-color: #10111600;
+    border: 0px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#Clear{
+    grid-column: 1/3;
+    grid-row: 1;
+    color: #262834;
+}
+#result{
+    grid-column: 3/5;
+    grid-row: 5;
+    color: #262834;
+}
+#backspace{
+    color: #262834;
+}
+button{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #262834;
+    color: #ffffff;
+    font-weight: 500;
+}
+input:focus,
+input:active,
+button:focus,
+button:active{
+    outline: none;
+}
+
+.heigthligth {
+    background: #56cbdb;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    background: #02e990;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.TodoWrapper {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.TodoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #02e990;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #fff;
+}
+
+.todo-input::placeholder {
+    color: #ffffff4d;
+}
+
+.todo-btn {
+    background:#02e990;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #02e990;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.fa-trash {
+    margin-left: 0.75rem;
+}
+
+.incompleted {
+    color: #fff;
+    cursor: pointer;
+}
+
+.completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+}
+
+.SuperstarApp {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #ff6600;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #e55c00;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+/* navBar */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 256px;
+    text-align: center;
+    border: 10px solid #101116;
+    background: #101116;
+    border-radius: 5px;
+
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows:minmax(60px,auto) ;
+}
+input[type="text"]{
+    height: 75px;
+    width: 249px;
+    background-color: #10111600;
+    border: 0px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#Clear{
+    grid-column: 1/3;
+    grid-row: 1;
+    color: #262834;
+}
+#result{
+    grid-column: 3/5;
+    grid-row: 5;
+    color: #262834;
+}
+#backspace{
+    color: #262834;
+}
+button{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #262834;
+    color: #ffffff;
+    font-weight: 500;
+}
+input:focus,
+input:active,
+button:focus,
+button:active{
+    outline: none;
+}
+
+.heigthligth {
+    background: #56cbdb;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #02e990;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+}
+
+.TodoWrapper {
+    background: #1A1A40;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.TodoForm {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.todo-input {
+    outline: none;
+    background: none;
+    border: 1px solid #02e990;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    color: #fff;
+}
+
+.todo-input::placeholder {
+    color: #ffffff4d;
+}
+
+.todo-btn {
+    background:#02e990;
+    color: #fff;
+    border: none;
+    padding: 0.55rem;
+    cursor: pointer;
+}
+
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #02e990;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.fa-trash {
+    margin-left: 0.75rem;
+}
+
+.incompleted {
+    color: #fff;
+    cursor: pointer;
+}
+
+.completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+}
+
+    .slider-container {
+    max-width: 1400px;
+    }
+
+    .slider-image {
+    width: 100%;
+    height: 780px;
+    border-radius: 2rem; 
+    background-position: center;
+    background-size: cover;
+    transition-duration: 0.5s; 
+    }
+
+
+    .nav-arrow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+    font-size: 2rem; 
+    border-radius: 9999px; 
+    padding: 0.5rem; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white; 
+    cursor: pointer;
+    }
+
+    .nav-arrow.prev {
+    left: 5px;
+    }
+
+    .nav-arrow.next {
+    right: 5px;
+    }
+
+    .slider-container:hover .nav-arrow {
+    display: block;
+    }
+
+    .slider-dots {
+    display: flex;
+    position: absolute;
+    top: 4px;
+    justify-content: center;
+    }
+
+    .dot {
+    font-size: 2rem; 
+    cursor: pointer; 
+    margin-right: 0.5rem;
+    }
+
+
+    .dot.active {
+    color: #00f; 
+    }
+.SuperstarApp {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #ff6600;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #e55c00;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+
+
+/* navBar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.containere{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 25px 20px 20px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block; /* Corrected typo: "Inline" should be lowercase */
+    padding: 13px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.2s;
+}
+
+/* Corrected typo: "ofter" should be "after" */
+nav ul li::after {
+    content: ''; /* Corrected typo: ";" instead of ":" */
+    background: #02e990;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+
+nav ul li:hover {
+    color: #fff;
+}
+
+nav ul li:hover::after {
+    top: 58%;
+    opacity: 1;
+}
+
+
+/* slide  */
+
+    .slider-container {
+    width: 1200px;
+    }
+
+    .slider-image {
+    width: 100%;
+    height: 600px;
+    border-radius: 2rem; 
+    background-position: center;
+    background-size: cover;
+    transition-duration: 0.5s; 
+    }
+
+
+    .nav-arrow {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateX(0) translateY(-50%);
+    font-size: 2rem; 
+    border-radius: 9999px; 
+    padding: 0.5rem; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white; 
+    cursor: pointer;
+    }
+
+    .nav-arrow.prev {
+    left: 5px;
+    }
+
+    .nav-arrow.next {
+    right: 5px;
+    }
+
+    .slider-container .nav-arrow {
+    display: block;
+    }
+
+    
