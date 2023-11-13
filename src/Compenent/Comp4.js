@@ -30,14 +30,14 @@ const SuperstarComponent = () => {
 
     return (
         <div className="SuperstarApp">
-            <h1>pagination</h1>
-            <ul>
+            <h1 className='h1'>pagination</h1>
+            <ul className='ul'>
                 {todoList.map(todo => (
-                    <li key={todo.id}>{todo.title}</li>
+                    <li className='li' key={todo.id}>{todo.title}</li>
                 ))}
             </ul>
-            <button onClick={goToPreviousPage}>Précédent</button>
-            <button onClick={goToNextPage}>Suivant</button>
+            <button onClick={goToPreviousPage} className='button'>Précédent</button>
+            <button onClick={goToNextPage} className='button'>Suivant</button>
         </div>
     );
 };

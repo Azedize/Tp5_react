@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
 export default function Slider() {
     const slides = [
         {
@@ -35,9 +34,6 @@ export default function Slider() {
         setCurrentIndex(newIndex);
     };
 
-    const goToSlide = (slideIndex) => {
-        setCurrentIndex(slideIndex);
-    };
 
 
         return (
