@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/Calcilatrice" element={<Calc />} />
+        <Route path="/" element={<Calc />} />
         <Route path="/todo" element={<TodoWrapper />} />
         <Route path="/slider" element={<Slider />} />
         <Route path="/pagination" element={<Comp4 />} />

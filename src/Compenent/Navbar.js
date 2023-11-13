@@ -8,7 +8,7 @@ export default function Navbar() {
         <div class="containere">
             <nav>
                 <ul>
-                    <Link to="/Calcilatrice"><li>Calcilatrice</li></Link>
+                    <Link to="/"><li>Calcilatrice</li></Link>
                     <Link to="/todo"><li>Todo List</li></Link>
                     <Link to="/slider"><li>Slider</li></Link>
                     <Link to="/pagination"><li>Pagination</li></Link>
