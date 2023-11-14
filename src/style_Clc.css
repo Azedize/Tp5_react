@@ -103,6 +103,11 @@ button:active{
     padding: 2rem;
     border-radius: 20px;
 }
+@media only screen and (max-width: 767px) {
+    .TodoWrapper {
+        width: 500px; /* La marge pour les écrans de téléphone */
+    }
+}
 
 .TodoForm {
     width: 100%;
@@ -175,6 +180,12 @@ button:active{
     max-width: 600px;
     margin: 10px auto;
 }
+@media only screen and (max-width: 767px) {
+    .SuperstarApp {
+        width: 350px; /* La marge pour les écrans de téléphone */
+    }
+}
+
 
 .h1 {
     color: #56cbdb;
