@@ -44,7 +44,7 @@ export default function Slider() {
                         className='slider-image'
                     ></div>
 
-                    <div className={`nav-arrow prev ${currentIndex === 0 ? 'hidden' : 'block'}`}>
+                    <div className={` prev nav-arrow-e ${currentIndex === 0 ? 'hidden' : 'block'} `}>
                         <BsChevronCompactLeft onClick={prevSlide} size={30} />
                     </div>
 

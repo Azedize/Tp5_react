@@ -8,17 +8,14 @@
 }
 
 .containeree {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    margin: 0 auto;
 
+    margin: 0 auto;
     width: 256px;
     text-align: center;
     border: 10px solid #101116;
     background: #101116;
     border-radius: 5px;
+    margin-bottom: 20px;
 
 }
 
@@ -70,11 +67,7 @@ button:active{
 .heigthligth {
     background: #56cbdb;
 }
-@media only screen and (max-width: 991px) {
-    .containeree {
-        margin-top: 240px; /* La marge pour les écrans de téléphone et tablette */
-    }
-}
+
 
 
 /* style todo list */
@@ -105,12 +98,12 @@ button:active{
 }
 @media only screen and (max-width: 767px) {
     .TodoWrapper {
-        width: 400px; /* La marge pour les écrans de téléphone */
+        width: 400px; 
     }
 }
 @media only screen and (max-width: 405px) {
     .TodoWrapper {
-        width: 265px; /* La marge pour les écrans de téléphone */
+        width: 265px; 
     }
 }
 
@@ -135,7 +128,7 @@ button:active{
 }
 @media only screen and (max-width: 405px) {
     .todo-input {
-        width: 170px; /* La marge pour les écrans de téléphone */
+        width: 170px; 
     }
 }
 
@@ -245,8 +238,11 @@ button:active{
 
 
 /* style slider  */
+
     .slider-container {
+    position: relative;
     max-width: 1400px;
+    margin-bottom: 40px;
     }
 
     .slider-image {
@@ -262,7 +258,20 @@ button:active{
 
     .nav-arrow {
     position: absolute;
-    top: 50%;
+    transform: translateX(0) translateY(-50%);
+    font-size: 2rem; 
+    border-radius: 9999px; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: white; 
+    cursor: pointer;
+    top: 260px; 
+    margin: 5px;
+    margin-left: 17px;
+    padding: 5px;
+    }
+    .nav-arrow-e {
+    position: absolute;
+    top: 65%;
     transform: translateX(0) translateY(-50%);
     font-size: 2rem; 
     border-radius: 9999px; 
@@ -270,6 +279,11 @@ button:active{
     background-color: rgba(0, 0, 0, 0.2); 
     color: white; 
     cursor: pointer;
+    margin-left: 152px;
+    top: 260px; 
+    margin: 5px;
+    margin-right: 15px;
+    padding: 5px;
     }
 
     .nav-arrow.prev {
@@ -301,9 +315,21 @@ button:active{
     .dot.active {
     color: #00f; 
     }
+    @media screen and (min-width: 768px) {
+    .nav-arrow {
+        margin-right: 140px;
+    }
+    .nav-arrow-e {
+        margin-left: 140px;
+    }
 
-    @media only screen and (max-width: 991px) {
-        .nav-arrow {
-            top: 100%; 
-        }
+    }
+    @media screen and (min-width: 767px) {
+    .nav-arrow {
+        margin-right: 60px;
+    }
+    .nav-arrow-e {
+        margin-left: 60px;
+    }
+
     }
