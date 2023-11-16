@@ -105,7 +105,12 @@ button:active{
 }
 @media only screen and (max-width: 767px) {
     .TodoWrapper {
-        width: 500px; /* La marge pour les écrans de téléphone */
+        width: 400px; /* La marge pour les écrans de téléphone */
+    }
+}
+@media only screen and (max-width: 405px) {
+    .TodoWrapper {
+        width: 265px; /* La marge pour les écrans de téléphone */
     }
 }
 
@@ -127,6 +132,11 @@ button:active{
 
 .todo-input::placeholder {
     color: #ffffff4d;
+}
+@media only screen and (max-width: 405px) {
+    .todo-input {
+        width: 170px; /* La marge pour les écrans de téléphone */
+    }
 }
 
 .todo-btn {
@@ -182,7 +192,12 @@ button:active{
 }
 @media only screen and (max-width: 767px) {
     .SuperstarApp {
-        width: 350px; /* La marge pour les écrans de téléphone */
+        width: 350px; 
+    }
+}
+@media only screen and (max-width: 405px) {
+    .SuperstarApp {
+        width:270px; 
     }
 }
 
