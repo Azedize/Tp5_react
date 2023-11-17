@@ -1,0 +1,19 @@
+/* BtnToggle.css */
+.btn-toggle {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-toggle.dark-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-toggle:hover {
+  background-color: #ddd;
+  color: #333;
+}
