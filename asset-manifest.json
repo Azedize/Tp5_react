@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/CC1_react/static/css/main.f289f532.css",
-    "main.js": "/CC1_react/static/js/main.ff5b893d.js",
-    "static/media/united-kingdom.svg": "/CC1_react/static/media/united-kingdom.2d19fed4fb288f7b8a8591bbe3b70429.svg",
-    "static/media/spain.svg": "/CC1_react/static/media/spain.32e1e4891a5c1d5ce79f04ec7671d151.svg",
-    "index.html": "/CC1_react/index.html",
-    "static/media/france.svg": "/CC1_react/static/media/france.40c79af5ce5231775ae018679c075255.svg",
-    "main.f289f532.css.map": "/CC1_react/static/css/main.f289f532.css.map",
-    "main.ff5b893d.js.map": "/CC1_react/static/js/main.ff5b893d.js.map"
+    "main.css": "/Tp5_react/static/css/main.8e4d73b2.css",
+    "main.js": "/Tp5_react/static/js/main.22e1279b.js",
+    "index.html": "/Tp5_react/index.html",
+    "main.8e4d73b2.css.map": "/Tp5_react/static/css/main.8e4d73b2.css.map",
+    "main.22e1279b.js.map": "/Tp5_react/static/js/main.22e1279b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f289f532.css",
-    "static/js/main.ff5b893d.js"
+    "static/css/main.8e4d73b2.css",
+    "static/js/main.22e1279b.js"
   ]
 }
